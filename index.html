@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> algebra </title>
+</head>
+<body>
+<script type="text/javascript">
+	
+var browser, uAgent=navigator.userAgent;
+
+ if (uAgent.indexOf("Firefox")>-1) {
+	browser="Mozilla Firefox"; 
+var x=prompt("Браузер Firefox. Введите число х в уравнении y=sin(x):");
+	var y=Math.sin(x);
+	alert("y="+y);
+}
+
+else if (uAgent.indexOf("OPR")>-1) {
+	browser="Opera"; 
+var x=prompt("Браузер Opera. Введите число х в уравнении y=10*x:");
+	var y=10*x;
+	alert("y="+y);
+}
+else if(uAgent.indexOf("Chrome")>-1){
+	
+	var x=prompt("Браузер Chrome. Введите число х в уравнении y=10^x:");
+	var y=Math.pow(10, x);
+	alert("y="+y);	
+}
+
+
+
+
+
+
+</script>
+</body>
+</html>
